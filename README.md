@@ -1,10 +1,18 @@
 # FC-TCell-Classification
 This Repository contains the code and datasets used for training two machine learning models, a Neural Network, and XGBoost model on flowcytometry data for the classification of cell samples into the three main T-Cell types.
 
-# Repo Directories
-There are three main directories in this repo:
+# Dataset
 
-The "data" dir contains the .csv files of the flowcytometry data that was used for training of the models. "dataset1Normal.csv" and "dataset1Patient.csv" were used for the training of the models. The rest of the files are the external datasets.
+The datasets were downloaded from: http://flowrepository.compbio.cs.cmu.edu/experiments/6660/download_ziped_files
+
+The data extraction and annotation details are presented in our paper. All the datasets were saved in .csv file format. Due to file size limitations on Github, the data was uploaded to Google Drive and is accessible through the following link:
+
+https://drive.google.com/drive/folders/1-2cFJA0_V2zlYPBrw7WY7TcQSpLq9v-h?usp=drive_link
+
+For training, dataset1Normal.csv and dataset1Patient.csv were used. The rest of the files were used for the external dataset validation.
+
+# Repo Directories
+There are two main directories in this repo:
 
 The "code" dir contains the main Jupyter notebook with the training, testing, and external dataset validation. Google Colab was used for creating and running this notebook. All paths are thus assuming that the files are uploaded to the Colab session. Simply edit the paths to your local filepath if you desire to run the notebook elsewhere.
 
