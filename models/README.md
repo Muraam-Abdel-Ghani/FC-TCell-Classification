@@ -1,6 +1,8 @@
 Trained model files and Yeo Johnson Transformer.
 
-Due to filesize limits, the XGBoost was uploaded to Google Drive instead of to this repository. It is downloadable on the following link: https://drive.google.com/file/d/1N4zHrrjt1GHfAGCkHDDeLS2Fouk1Zc-r/view?usp=drive_link
+Due to filesize limits, the XGBoost was uploaded to Google Drive instead of to this repository. It is downloadable on the following link: 
+
+https://drive.google.com/file/d/1DbWN8v6n-gdRqoYlp2phOcLa52vlO9fw/view?usp=sharing
 
 The model files include: 
 
